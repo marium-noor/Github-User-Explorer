@@ -14,8 +14,5 @@ GitHub User Explorer is a React application that allows users to search for GitH
 - **Tailwind CSS:** Utility-first CSS framework for styling.
 - **GitHub API:** Used to fetch user data and repositories.
 
-## How to Use
-1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/your-username/github-user-explorer.git
-   cd github-user-explorer
+## Deployed here
+- 'https://github-user-explorer-ten.vercel.app/'
