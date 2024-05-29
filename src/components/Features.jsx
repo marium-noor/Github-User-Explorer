@@ -6,7 +6,7 @@ function Features() {
     <div className="h-auto w-full flex flex-col items-center text-center p-10">
       <div className="md:text-5xl text-3xl font-bold md:font-extrabold text-indigo-200 mb-28">
         <p>"Features!"</p>
-        <div className="text-yellow-400 text-6xl">______________</div>
+        <div className="text-yellow-400 text-3xl md:text-5xl w-16">______________</div>
       </div>
 
       <div className="w-full flex flex-wrap justify-evenly items-center text-white">
