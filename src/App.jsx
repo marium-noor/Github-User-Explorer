@@ -3,6 +3,8 @@ import SearchBar from './components/SearchBar';
 import UserProfile from './components/UserProfile';
 import RepoList from './components/RepoList';
 import Loading from './components/Loading'
+import Home from './components/Home';
+import Features from './components/Features';
 
 const App = () => {
 
@@ -34,7 +36,9 @@ const App = () => {
 
   return (
     <div className="container mx-auto p-4">
+      {!user && <Home />}
       <SearchBar onSearch={fetchUserData} />
+      {!user && <Features />}
       {loading && <Loading />}
       {error && <p className="text-red-500">{error}</p>}
       {user && <UserProfile user={user} />}

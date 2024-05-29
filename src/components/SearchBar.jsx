@@ -7,20 +7,21 @@ function SearchBar({ onSearch }) {
     if (username) {
       onSearch(username);
     }
+    setUsername('')
   };
 
   return (
     <div className="flex justify-center my-4">
       <input
         type="text"
-        placeholder="Enter GitHub Username"
+        placeholder="GitHub Username"
         className="border rounded-md p-2 w-1/2"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
       />
       <button
         onClick={handleSearch}
-        className="bg-blue-500 text-white p-2 rounded ml-2"
+        className="bg-indigo-500 text-white p-2 rounded ml-2"
       >
         Search
       </button>
